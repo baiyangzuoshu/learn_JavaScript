@@ -16,3 +16,5 @@ person1.sayName();
 person2.sayName();
 alert(person1 instanceof Person);
 alert(person2 instanceof Object);
+alert(Person.prototype.isPrototypeOf(person1));
+alert(Person.prototype.isPrototypeOf(person2));
