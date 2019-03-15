@@ -36,6 +36,15 @@ function    sort(data){
 
 
 var array=[1,5,6,3,8,1,9];
-console.log('array:'+array);
+if(Array.isArray(array)){
+    console.log('array:'+array);
+}
 sort(array);
 console.log('array:'+array);
+array.push("jwj");
+array.push("maomao");
+sort(array);
+console.log('array:'+array);
+
+var now=new Date();
+console.log("now:"+now.toTimeString());
