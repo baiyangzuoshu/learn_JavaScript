@@ -38,3 +38,13 @@ function    MyObject(){
 
 var myO=new MyObject();
 alert('privateVariable:'+myO.privateVariable);
+
+var name='maomao';
+
+function    echo(){
+    alert('name:'+name);
+    var name='jwj';//this.name='jwj';
+    alert('name:'+name);
+}
+
+echo();
