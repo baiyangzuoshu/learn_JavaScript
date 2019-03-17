@@ -31,8 +31,12 @@ function    test2(){
     return a;
 }
 /*
+GO={
+    test2:function test2(){}
+}
 AO={
     a:undefined->function a(){}->1->2
 }
 */
+//函数被定义的时候，[[scope]]已经形成了；函数被调用的时候，AO生成
 console.log(test2());
