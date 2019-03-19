@@ -14,3 +14,9 @@ function    compose(f,g){
 
 var f=compose(exclaim,toUpperCase);
 console.log(f('hello'));
+
+function    $(test){
+    console.log('$test');
+}
+
+$();
