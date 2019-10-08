@@ -1,6 +1,23 @@
 
+test5()
+function    test5(){
+    function    Pointer(){};
+    Pointer.prototype.setX=function(x){
+        this.x=x;
+    }
+    Pointer.prototype.setY=function(y){
+        this.y=y;
+    }
+    Pointer.prototype.print=function(){
+        console.log(`x:${this.x},y:${this.y}`);
+    }
 
-test4();
+    let p=new Pointer();
+    p.setX(10);
+    p.setY(20);
+    p.print();
+}
+
 function    test4(){
     function    Veiche(){};
     let ve=new Veiche();
