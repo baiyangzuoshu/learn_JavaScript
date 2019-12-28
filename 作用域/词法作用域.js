@@ -2,10 +2,12 @@
 {
     let aaa=123;
     var bbb=456;
+    const eee=9999;
 }
 console.log(bbb);
+//console.log(eee);
 //console.log(aaa);
-//只有函数限定变量的作用域,访问变量的作用域往上(从函数内部->函数外部)进行查找。
+//只有函数能限定变量的作用域,访问变量的作用域往上(从函数内部->函数外部)进行查找。
 function    foo(){
     let s=123;
     var c=456;
