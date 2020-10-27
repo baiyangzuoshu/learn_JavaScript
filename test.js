@@ -1,4 +1,1 @@
-
-
-
-console.log('a' in {'a':1});
+console.log("hi javascript");
